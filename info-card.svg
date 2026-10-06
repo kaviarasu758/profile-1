@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 420" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .border { stroke: #30363d; stroke-width: 1; fill: none; }
+      .title-text { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; font-weight: 600; }
+      .user-host { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; font-weight: 700; }
+      .divider { fill: #30363d; font-family: monospace; font-size: 12px; }
+      .key { fill: #ff7b72; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; font-weight: 600; }
+      .value { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; }
+      
+      @keyframes lineSlide {
+        0% {
+          opacity: 0;
+          transform: translateX(-12px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      .row {
+        animation: lineSlide 0.4s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+      }
+    
+    </style>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="490" height="420" rx="8" class="bg" />
+  <rect width="489" height="419" x="0.5" y="0.5" rx="8" class="border" />
+
+  <!-- Terminal Header -->
+  <circle cx="18" cy="18" r="4.5" fill="#ff5f56" />
+  <circle cx="32" cy="18" r="4.5" fill="#ffbd2e" />
+  <circle cx="46" cy="18" r="4.5" fill="#27c93f" />
+  <text x="65" y="22" class="title-text">neofetch --profile</text>
+
+  <!-- Content Rows -->
+  
+    <g class="row" style="animation-delay: 0.05s;">
+      <text x="25" y="75" class="user-host">developer@github</text>
+    </g>
+    <g class="row" style="animation-delay: 0.10s;">
+      <text x="25" y="89" class="divider">——————————————————————————————————————</text>
+    </g>
+    
+    <g class="row" style="animation-delay: 0.21s;">
+      <text x="25" y="111" class="key">OS:</text>
+      <text x="115" y="111" class="value">Arch Linux x86_64</text>
+    </g>
+    <g class="row" style="animation-delay: 0.27s;">
+      <text x="25" y="137" class="key">Kernel:</text>
+      <text x="115" y="137" class="value">Linux 6.9.3-hardened</text>
+    </g>
+    <g class="row" style="animation-delay: 0.33s;">
+      <text x="25" y="163" class="key">Uptime:</text>
+      <text x="115" y="163" class="value">24/7 Building</text>
+    </g>
+    <g class="row" style="animation-delay: 0.39s;">
+      <text x="25" y="189" class="key">Shell:</text>
+      <text x="115" y="189" class="value">zsh 5.9</text>
+    </g>
+    <g class="row" style="animation-delay: 0.45s;">
+      <text x="25" y="215" class="key">Role:</text>
+      <text x="115" y="215" class="value">Full Stack Engineer & OSS Contributor</text>
+    </g>
+    <g class="row" style="animation-delay: 0.51s;">
+      <text x="25" y="241" class="key">Stack:</text>
+      <text x="115" y="241" class="value">TypeScript, Python, Go, React, Next.js</text>
+    </g>
+    <g class="row" style="animation-delay: 0.57s;">
+      <text x="25" y="267" class="key">Databases:</text>
+      <text x="115" y="267" class="value">PostgreSQL, Redis, MongoDB</text>
+    </g>
+    <g class="row" style="animation-delay: 0.63s;">
+      <text x="25" y="293" class="key">DevOps:</text>
+      <text x="115" y="293" class="value">Docker, Kubernetes, GitHub Actions, AWS</text>
+    </g>
+    <g class="row" style="animation-delay: 0.69s;">
+      <text x="25" y="319" class="key">Focus:</text>
+      <text x="115" y="319" class="value">High-performance Web Apps & Interactive Visuals</text>
+    </g>
+    <g class="row" style="animation-delay: 0.75s;">
+      <text x="25" y="345" class="key">Status:</text>
+      <text x="115" y="345" class="value">Available for high-impact projects</text>
+    </g>
+    <g class="row" style="animation-delay: 0.83s;">
+      <rect x="25" y="377" width="18" height="10" rx="2" fill="#ff5f56" /><rect x="47" y="377" width="18" height="10" rx="2" fill="#ffbd2e" /><rect x="69" y="377" width="18" height="10" rx="2" fill="#27c93f" /><rect x="91" y="377" width="18" height="10" rx="2" fill="#58a6ff" /><rect x="113" y="377" width="18" height="10" rx="2" fill="#bc8cff" /><rect x="135" y="377" width="18" height="10" rx="2" fill="#39d353" /><rect x="157" y="377" width="18" height="10" rx="2" fill="#f0883e" /><rect x="179" y="377" width="18" height="10" rx="2" fill="#79c0ff" />
+    </g>
+</svg>
